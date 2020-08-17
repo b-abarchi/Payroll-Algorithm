@@ -1,20 +1,20 @@
 # Payroll-Algorithm
-manage company employees and their payroll
-       You are to write a Payroll c program . your program should be able to store up to 500 employees. You need a menu that should look like this:
-        printf("=======================================\n");
-                printf("==         M A I N   M E N U         ==\n");
-                printf("=======================================\n");
-                printf("[A] Add new employee\n");
-                printf("[B] Edit employee\n");
-                printf("[C] Delete employee\n");
-                printf("[D] Search specific employee\n");
-                printf("[E] Display all employees\n");
-                printf("[Q] Save all employee & Quit \n");
-                printf("=======================================\n");
-                printf("Enter choice: ");
-        user can edit each information about employees (names, hours worked and hourly pay).
-        Your struct should look like this
-        typedef struct {
+       manage company employees and their payroll
+              You are to write a Payroll c program . your program should be able to store up to 500 employees. You need a menu that should look like this:
+               printf("=======================================\n");
+                       printf("==         M A I N   M E N U         ==\n");
+                       printf("=======================================\n");
+                       printf("[A] Add new employee\n");
+                       printf("[B] Edit employee\n");
+                       printf("[C] Delete employee\n");
+                       printf("[D] Search specific employee\n");
+                       printf("[E] Display all employees\n");
+                       printf("[Q] Save all employee & Quit \n");
+                       printf("=======================================\n");
+                       printf("Enter choice: ");
+               user can edit each information about employees (names, hours worked and hourly pay).
+               Your struct should look like this
+               typedef struct {
                 char *firstName;
                 char *lastName;
                 float hourlyPay;
