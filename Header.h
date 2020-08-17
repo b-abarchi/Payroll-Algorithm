@@ -1,0 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<stdlib.h>
+#define PAUSE getchar()
+#define CLS system("cls")
+#define FLUSH myFlush()
+#pragma once
